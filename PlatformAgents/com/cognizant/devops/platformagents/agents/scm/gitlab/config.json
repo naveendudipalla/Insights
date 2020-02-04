@@ -96,7 +96,7 @@
 			}
 		}
 	},
-	"agentId": "InsightsGitLabAgent",
+	"agentId": "",
 	"enableBranches" : true,
 	"enableOptimizedDataRetrieval": true,
 	"enableBrancheDeletion" : false,
