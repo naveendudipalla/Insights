@@ -27,7 +27,8 @@ from datetime import datetime as dateTime
 
 from dateutil import parser
 
-from com.cognizant.devops.platformagents.core.BaseAgent import BaseAgent
+#from com.cognizant.devops.platformagents.core.BaseAgent import BaseAgent
+from ....core.BaseAgent import 
 
 
 class GitLabAgent(BaseAgent):
