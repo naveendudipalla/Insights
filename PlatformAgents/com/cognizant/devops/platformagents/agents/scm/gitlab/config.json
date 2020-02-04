@@ -113,7 +113,7 @@
 	"isEpochTimeFormat" : false,
     "startFrom": "2019-08-01 00:00:33",
     "accessToken": "accessToken",
-    "getRepos": "https://<<gitlab_url>>/api/v4/projects",
+    "getProjects": "https://<<gitlab_url>>/api/v4/projects",
     "commitsBaseEndPoint": "https://<<gitlab_url>>/api/v4/projects/",
 	"isDebugAllowed" : false,
 	"toolName": "GITLAB",
