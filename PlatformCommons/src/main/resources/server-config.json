@@ -87,6 +87,21 @@
 		"dataPurgingExecutorInterval" : 300,
 		"offlineDataProcessingExecutorInterval" : 10
 	},
+	"singleSignOnConfig" : {
+		"entityId": "",
+		"appId": "",
+		"metadataUrl": "",
+		"metdataFilePath" : "",
+		"keyStoreFilePath": "C:\\InSights_Windows\\Server2\\INSIGHTS_HOME\\.InSights\\saml-keystore.jks",
+		"keyAlias": "mykeyalias",
+		"keyPass": "mykeypass",
+		"keyStorePass" : "samlstorepass",
+				"appBaseUrl" : "baseURL",
+		"relayStateUrl" : "relayStateUrl",
+		"defaultTargetUrl" : "defaultTargetUrl",
+		"postLogoutURL" : "logoutURL",
+		"tokenSigningKey":"insights_IDP_CogDevops_SSO_Token_string"
+	},
 	"insightsServiceURL": "http://localhost:8080",
 	"insightsTimeZone": "Asia/Kolkata",
 	"userId": "admin",
@@ -96,6 +111,7 @@
 	"enableAuditEngine" : true,
 	"enableWebHookEngine" : true,
 	"enableOnlineBackup": false,
+	"enableSSO": false,
 	"trustedHosts": [
     	"localhost", "hostip"
   	],
